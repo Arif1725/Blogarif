@@ -1,0 +1,45 @@
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Your Mail Has Been Sent Successfully
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+			font-family: 'Roboto', sans-serif;
+		}
+		.slide-in {
+			animation: slideIn 1s ease-in-out;
+		}
+		@keyframes slideIn {
+			from {
+				transform: translateY(100%);
+				opacity: 0;
+			}
+			to {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <section class="relative h-screen flex items-center justify-center bg-black">
+   <div class="relative bg-white bg-opacity-90 p-4 md:p-6 lg:p-8 rounded-lg shadow-lg text-center max-w-sm mx-auto slide-in">
+    <h1 class="text-xl md:text-3xl lg:text-4xl font-bold text-green-500 mb-4 md:mb-6">
+     Your Mail Has Been Sent Successfully
+    </h1>
+    <p class="text-gray-700 mb-4 md:mb-6">
+     Thank you for reaching out to us. We will get back to you shortly.
+    </p>
+    <a class="inline-block bg-blue-500 text-black font-semibold py-2 px-4 md:py-2 md:px-6 lg:py-3 lg:px-8 rounded-full uppercase transition duration-200 hover:bg-blue-600" href="index.html">
+     Back To Home
+    </a>
+   </div>
+  </section>
+ </body>
+</html>
