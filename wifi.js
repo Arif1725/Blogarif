@@ -10,7 +10,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
     // Validasi sederhana
     if (name && email && phone && message) {
         // Format pesan untuk WhatsApp
-        const whatsappMessage = `Halo Bdg Tech.id Saya ingin Berlanggan Wi-Fi dengan format berikut ${name}.\nEmail ${email}\nNomor Telepon: ${phone}\nPesan: ${message}`;
+        const whatsappMessage = `Halo KitaNet.id Saya ingin Berlanggan Wi-Fi dengan format berikut ${name}.\nEmail ${email}\nNomor Telepon: ${phone}\nPesan: ${message}`;
 
         // Encode pesan untuk URL
         const encodedMessage = encodeURIComponent(whatsappMessage);
